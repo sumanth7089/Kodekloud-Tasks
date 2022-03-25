@@ -1,0 +1,6 @@
+login into all app servers and update the timezone
+
+# to check the timezone
+  timedatectl
+# to set the time zone
+  timedatectl set-timezone <region/city>

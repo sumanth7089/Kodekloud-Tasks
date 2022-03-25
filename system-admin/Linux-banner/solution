@@ -1,0 +1,16 @@
+1 copy all the files from jumphost server to app and db servers
+
+scp -r /home/thor/nautilus_banner id@server: destination path 
+
+2. for database server you will face scp command not found so 
+   we need to install it openssh-client
+
+sudo yum install -y openssh-client
+
+then 
+
+and then validate it by ssh into servers
+
+
+
+### https://medium.com/@keshavsaxena/update-banner-in-linux-servers-3d6832f95f44 

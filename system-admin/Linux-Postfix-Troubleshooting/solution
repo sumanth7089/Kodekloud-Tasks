@@ -1,0 +1,21 @@
+# 1
+ssh into stmail01 from nautilus
+
+2
+
+check the status and logs of postfix and Identify error
+
+3 
+
+
+go into  /etc/postfix/main.cf and modify the error
+
+4
+
+then restart psotfix
+
+5 check whether it is mail is connecting or not 
+ telnet stmail01 25
+
+
+To connect to an SMTP server by using Telnet on port 25, you need to use the fully-qualified domain name (FQDN) (for example, mail.contoso.com) or the IP address of the SMTP server.

@@ -1,0 +1,5 @@
+1. We can copy file from one server to other server by using scp
+   
+here
+
+scp /tmp/nautilus.txt.gpg tony@stapp01:/home//nfsshare

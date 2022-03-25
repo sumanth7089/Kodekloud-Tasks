@@ -1,0 +1,13 @@
+ssh into app server and then 
+
+add user
+
+-> useradd rose -s sbin/nologin
+
+and then check wether user is created or not 
+ 
+id rose 
+
+or 
+
+cat /etc/passwd | grep rose  
