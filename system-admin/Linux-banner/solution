@@ -5,7 +5,7 @@ scp -r /home/thor/nautilus_banner id@server: destination path
 2. for database server you will face scp command not found so 
    we need to install it openssh-client
 
-sudo yum install -y openssh-client
+sudo yum install -y openssh-clients
 
 then 
 

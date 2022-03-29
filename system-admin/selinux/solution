@@ -1,0 +1,13 @@
+ssh into app server 
+
+then install selinux
+
+sudo yum install -y selinux*
+
+ sestatus
+
+
+vi /etc/selinux/config
+
+ cat /etc/selinux/config | grep SELINUX
+

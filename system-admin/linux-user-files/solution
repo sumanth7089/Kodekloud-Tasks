@@ -1,0 +1,6 @@
+1. ssh into server 
+2. check the files in the /home/usersdata
+3. list out the number of files with name given 
+find /home/usersdata/ -type f -user rose | wc -l
+then copy file to /media folder
+find /home/usersdata/ -type f -user rose -exec cp --parents {} /media \;

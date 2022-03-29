@@ -1,0 +1,9 @@
+ssh into stapp02 server and add user yousuf, then 
+
+set exipry date 
+
+usermod -e <exipry date> <user>
+
+to check exipry of a user 
+
+chage -l <user>
