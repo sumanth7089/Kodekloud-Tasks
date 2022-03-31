@@ -8,6 +8,7 @@ sudo yum install -y selinux*
 
 
 vi /etc/selinux/config
+change selinux to disabled
 
  cat /etc/selinux/config | grep SELINUX
 
