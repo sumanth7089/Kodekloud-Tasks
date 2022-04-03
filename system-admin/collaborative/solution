@@ -1,0 +1,5 @@
+ssh into the server
+
+create a directory 
+
+change group name to devops and set permissions RWX (2770)to group and users only
