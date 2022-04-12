@@ -1,0 +1,11 @@
+ssh into app server
+
+then delete the particular line using and save it in other file 
+
+sed '/\<code\>/d' /home/BSD.txt > /home/BSD_DELETE.txt
+
+then substitute word from to for by using sed 's/\bfor\b/for/g' /home/BSD.txt > /home/BSD_REPLACE.txt
+
+
+
+

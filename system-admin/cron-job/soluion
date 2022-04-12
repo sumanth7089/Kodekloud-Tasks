@@ -1,0 +1,25 @@
+1 ssh into all app servers
+
+# install croine package 
+
+yum install -y cronie 
+
+# then start the service
+
+systemctl start crond.service
+
+# check the status of the sevice 
+
+systemctl service crond.service
+
+# then add the cron job using 
+
+crontab -e
+
+then add the cronjob
+
+ */5 * * * * echo hello > /tmp/cron_text
+
+# to list the cronjob 
+
+crontab -l

@@ -1,0 +1,15 @@
+1. ssh into app server
+
+2. useradd -M ammar
+
+3. set passwd for ammar 
+   
+   sudo passwd ammar 
+
+validate it by going into that user
+
+su ammar
+
+
+
+

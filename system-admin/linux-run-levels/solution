@@ -1,0 +1,14 @@
+ssh into all app servers and
+
+change default settings into 
+
+systemctl set-default graphical.target
+
+
+then start it 
+
+systemctl start graphical.target
+
+then check status
+
+systemctl status graphical.target

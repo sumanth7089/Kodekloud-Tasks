@@ -1,0 +1,1 @@
+add nameserver 8.8.8.8 in /etc/resolv.conf in appserver
