@@ -1,0 +1,5 @@
+ssh into backup server and
+
+by using sed substitute word
+
+sed -i 's/Random/Maritime/g' /root/nautilus.xml 
